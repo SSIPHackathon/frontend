@@ -1,0 +1,94 @@
+
+  .rectangle-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #bdbd9b;
+    width: 100%;
+    object-fit: container;
+    height: 112px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  .gujarat-police-logo-1-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 55px;
+    height: 72px;
+    object-fit: cover;
+  }
+
+
+  .qr-code-based-feedback-system {
+    position: absolute;
+    left: calc(100vh/5);
+    top: 37px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 169px;
+    height: 46px;
+  }
+
+  .qr-code-based-container {
+    line-break: anywhere;
+    left: 20%;
+    float: left;
+    text-align: center;
+  }
+    
+  .qr-code-based {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  
+  .feedback-system-p {
+    margin: 0;
+  }
+  .gruh-vibhag-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 94px;
+    height: 72px;
+    object-fit: cover;
+  }
+
+  
+.navbar {
+  display: flex;
+  align-items: center;
+  background: darkblue;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar a{
+color: #FFAA46;
+text-decoration: none;
+font-size: larger;
+}
+
+.navbar__title {
+  margin-right: auto;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  width: calc(100vw/5.5);
+}
+@media only screen and (max-width:420px) {
+  .navbar a{
+    color: #FFAA46;
+    text-decoration: none;
+    font-size: small;
+  }
+}

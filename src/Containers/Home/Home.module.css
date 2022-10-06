@@ -1,8 +1,223 @@
-.container {
-  height: 100vh;
-  width: 100vw;
+.rectanglediv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #bdbd9b;
+  width: 100%;
+  object-fit: container;
+  height: 112px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: darkblue;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar a{
+color: #FFAA46;
+text-decoration: none;
+font-size: larger;
+}
+
+.navbar__title {
+  margin-right: auto;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  width: calc(100vw/5.5);
+}
+
+.r2{
+  top: 112px;
+  position: fixed;
+}
+.gujaratpolicelogo1icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 55px;
+  height: 72px;
+  object-fit: cover;
+}
+.qrcodebased {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.feedbacksystemp {
+  margin: 0;
+}
+.qrcodebasedcontainer {
+  line-break: anywhere;
+  left: 20%;
+  float: left;
+  text-align: center;
+}
+.qrcodebasedfeedbacksystem {
+  position: absolute;
+  left: calc(100vh/5);
+  top: 37px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 169px;
+  height: 46px;
+}
+.gruh-vibhag-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 94px;
+  height: 72px;
+  object-fit: cover;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-indigo);
+  width: 428px;
+  height: 30px;
+}
+.admin-login,
+.citizenlogina,
+.contactus,
+.home-a,
+.scanqrcode {
+  text-decoration: none;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+  font-weight: 500;
+  color: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: 10px;
+  height: 13px;
+  font-size: small;
+}
+.adminlogin,
+.citizenlogina,
+.contactus,
+.scanqrcode {
+  left: 73px;
+  width: 76px;
+}
+.adminlogin,
+.citizenlogina,
+.contactus {
+  left: 164px;
+  width: 77px;
+}
+.adminlogin,
+.contactus {
+  left: 256px;
+}
+.contactus {
+  left: 348px;
+  width: 60px;
+}
+.headerdiv,
+.rectanglediv2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  
+}
+.rectanglediv2 {
+  top: 0;
+  background-color: darkblue;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+}
+.homedepartmentgujaratstate {
+  position: absolute;
+  top: 40px;
+  left: 97px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+}
+.footerdiv {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+.rectanglediv3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  width: 127px;
+  height: 41px;
+}
+.scanqrcode2 {
+  position: absolute;
+  top: 17px;
+  left: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scanqrcode1 {
+  position: absolute;
+  top: 65.7%;
+  left: 35%;
+  width: 127px;
+  height: 41px;
+  font-size: 14px;
+  color: #000;
+}
+.lucideqrcodeicon {
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  z-index: 1000;
+}
+.qranimation2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: #373721;
+  font-family: var(--font-metropolis);
+}
+
+@media only screen and (max-width:420px) {
+  .navbar a{
+    color: #FFAA46;
+    text-decoration: none;
+    font-size: small;
+  }
 }
