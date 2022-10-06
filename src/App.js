@@ -1,6 +1,9 @@
 import React from "react";
-
 import { Switch, Route } from "react-router-dom";
+import Admin from "./Containers/Admin";
+import Citizen from "./Containers/Citizen";
+import Contect from "./Containers/Contect";
+import Feedback from "./Containers/FeedBack/Feedback";
 
 // import Home from "./Containers/Home";
 import Admin from "./Containers/Admin";
@@ -22,21 +25,19 @@ const App = () => {
       <Route exact path="/analytics">
         <Analytics />
       </Route>
+      <Route exact path="/Citizen">
+      <Citizen/>
+      </Route>
+      <Route exact path="/contect-us">
+      <Contect/>
+      </Route>
+      <Route exact path="/admin-login">
+      <Admin/>
+      </Route>
+      <Route exact path="/feedback">
+      <Feedback/>
+      </Route>
     </Switch>
   );
 };
-// import logo from './logo.svg';
-// import './App.css';
-// import Header from './components/Header';
-// import QRAnimation2 from './components/QRAnimation2';
-
-// function App() {
-//   return (
-//  <div className="App">
-//    <QRAnimation2/>
-//  </div>
-//  );
-// }
-
-// export default App;
 export default App;

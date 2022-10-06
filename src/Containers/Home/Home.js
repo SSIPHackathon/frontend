@@ -2,9 +2,21 @@
 import React from "react";
 import NavBar from "../../Components/NavBar/Navbar.js";
 import styles from "./Home.module.css";
+import NavBar from "../../Components/NavBar";
+import QrReader from 'react-qr-reader';
 
 const Home = () => {
   // const exampleState = useSelector((state) => state.example.exampleState);
+  const [data, setData] = useState('No result');
+  const handleResult = (result, error) => {
+    if (!!result) {
+      setData("");
+    }
+
+    if (!!error) {
+      console.info(error);
+    }
+  }
 
   return (
     <div className={styles.qranimation2}>
@@ -14,6 +26,15 @@ const Home = () => {
         <div className={styles.homedepartmentgujaratstate}>
           Home Department Gujarat State
         </div>
+      </div>
+      <div>
+        <div className={styles.qrvideo}>
+        <QrReader
+                onScan={handleResult}  
+                onResult={handleResult}
+                style={{ width: '78%' }}
+              />
+      </div>
       </div>
       <div className={styles.scanqrcode1}>
         <div className={styles.rectanglediv3} />

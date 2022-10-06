@@ -4,7 +4,9 @@
 // import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import "./Navbar.css";
+//import {Gujarat_Police_Logo} from '../../Assets/Gujarat_Police_Logo 1.png'
 
+//var logo1 = require('../../Assets/Gujarat_Police_Logo 1.png')
 function NavBar() {
   return (
     <div className="rectangle-div">
@@ -12,7 +14,7 @@ function NavBar() {
         <img
           className="gujarat-police-logo-1-icon"
           alt=""
-          src="/Gujarat_Police_Logo 1.png"
+          src="../../Assets/Home/Gujarat_Police_Logo 1.png"
         />
         <div className="qr-code-based-feedback-system">
           <span className="qr-code-based-container">
@@ -31,19 +33,19 @@ function NavBar() {
       >
         <header className="navbar">
           <div className="navbar__title navbar__item">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </div>
           <div className="navbar__item">
-            <a href="#">Scan QR code</a>
+            <a href="/scan">Scan QR code</a>
           </div>
           <div className="navbar__item">
-            <a href="#">Citizen login</a>
+            <a href="/Citizen">Citizen login</a>
           </div>
           <div className="navbar__item">
-            <a href="#">Admin login</a>
+            <a href="/admin-login">Admin login</a>
           </div>
           <div className="navbar__item">
-            <a href="#">Contect us</a>
+            <a href="/contect-us">Contect us</a>
           </div>
         </header>
       </ButtonGroup>
