@@ -1,7 +1,6 @@
+// import { useSelector } from "react-redux";
 import React from "react";
-
-import { useSelector } from "react-redux";
-
+import NavBar from "../../Components/NavBar/Navbar.js";
 import styles from "./Home.module.css";
 
 const Home = () => {

@@ -2,13 +2,25 @@ import React from "react";
 
 import { Switch, Route } from "react-router-dom";
 
-import Home from "./Containers/Home";
+// import Home from "./Containers/Home";
+import Admin from "./Containers/Admin";
+import Analytics from "./Containers/Analytics/Analytics";
+import Overview from "./Containers/Overview/Overview";
 
 const App = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <Home />
+        {/* <Home /> */}
+      </Route>
+      <Route exact path="/admin">
+        <Admin />
+      </Route>
+      <Route exact path="/overview">
+        <Overview />
+      </Route>
+      <Route exact path="/analytics">
+        <Analytics />
       </Route>
     </Switch>
   );
