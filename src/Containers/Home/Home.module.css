@@ -196,7 +196,7 @@ font-size: larger;
 .lucideqrcodeicon {
   position: absolute;
   top: 65%;
-  left: 45%;
+  left: 48%;
   width: 18px;
   height: 18px;
   overflow: hidden;
@@ -212,6 +212,13 @@ font-size: larger;
   font-size: var(--font-size-base);
   color: #373721;
   font-family: var(--font-metropolis);
+}
+
+.qrvideo{
+  position: relative;
+    top: 225px;
+    left: 15%;
+    width: 75%;
 }
 
 @media only screen and (max-width:420px) {

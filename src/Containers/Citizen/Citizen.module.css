@@ -1,0 +1,27 @@
+.otpbox{
+    top: 38%;
+    position: absolute;
+    left:10%;
+    border: #0e0e0e solid 2px;
+    right: 13%;
+    border-radius: 14px;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    left: 25%;
+    position: relative;
+}
+.submit{
+    border-radius: 18px;
+    width: fit-content;
+    left: 30%;
+}
+.error{
+    left:35%;
+    float: left;
+}
