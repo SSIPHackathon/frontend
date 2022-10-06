@@ -4,6 +4,7 @@ import Admin from "./Containers/Admin";
 import Citizen from "./Containers/Citizen";
 import Contect from "./Containers/Contect";
 import Feedback from "./Containers/FeedBack/Feedback";
+import Thank from "./Containers/Thank";
 
 import Home from "./Containers/Home";
 
@@ -24,6 +25,9 @@ const App = () => {
       </Route>
       <Route exact path="/feedback">
       <Feedback/>
+      </Route>
+      <Route exact path="/thank-you">
+      <Thank/>
       </Route>
     </Switch>
   );
