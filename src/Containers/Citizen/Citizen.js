@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, TextareaAutosize, Typography } from '@mui/material'
 import React,{useEffect, useState} from 'react'
 import NavBar from '../../Components/NavBar/index'

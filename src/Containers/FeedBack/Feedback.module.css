@@ -1,0 +1,13 @@
+.form{
+    top: 215px;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+.submit{
+    border-radius: 18px;
+    width: fit-content;
+    left: 30%;
+    background-color: #FFAA46;
+    color: black;
+}
