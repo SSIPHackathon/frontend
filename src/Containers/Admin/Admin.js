@@ -6,7 +6,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from "react-router-dom";
 import NavBar from "../../Components/NavBar/";
 function Admin() {
-  const [loggedIn, setLoggedIn] = React.useState(false);
+  const [loggedIn, setLoggedIn] = React.useState(true);
+  const [captcha, setCaptcha] = React.useState(false);
   const LogOut = () => {
     console.log("LogOut");
   };

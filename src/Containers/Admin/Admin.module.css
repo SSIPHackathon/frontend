@@ -73,7 +73,8 @@ input{
     margin-right: 20px;
 }
 .captcha div{
-    font-size: 0.8rem;
+    width: 270px;
+    font-size: 0.9rem;
     color: #8D8D8D;
     padding: 1.5px 0px  1.5px 0px ; 
 

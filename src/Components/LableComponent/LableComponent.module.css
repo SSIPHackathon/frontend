@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Metra SemiBold';
+    src: url(../../Assets/General/Fonts/metropolis.semi-bold.otf);
+}
+@font-face {
+    font-family: 'Metra Med';
+    src: url(../../Assets/General/Fonts/metropolis.medium.otf);
+}
+
+@font-face {
+    font-family: 'Metra Bold';
+    src: url(../../Assets/General/Fonts/metropolis.bold.otf);
+}
+@font-face {
+    font-family: 'Metra';
+    src: url(../../Assets/General/Fonts/metropolis.regular.otf);
+}
+
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.lable {
+    font-size: 0.9rem;
+   
+    color: #575757;
+    max-width: 350px;
+    font-family: "Metra Med";
+    margin:  20px 10px 4px 0px;
+   
+}
+.value{
+    text-transform: capitalize;
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Metra Med";
+    border: 2px solid #000;
+    background:  white;
+    line-height: 1.2rem;
+    color: #000;
+    max-width: 400px;
+}
