@@ -5,7 +5,7 @@
 import ButtonGroup from "@mui/material/ButtonGroup";
 import "./Navbar.css";
 //import {Gujarat_Police_Logo} from '../../Assets/Gujarat_Police_Logo 1.png'
-
+import React from "react";
 //var logo1 = require('../../Assets/Gujarat_Police_Logo 1.png')
 function NavBar() {
   return (

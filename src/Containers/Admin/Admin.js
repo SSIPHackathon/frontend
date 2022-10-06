@@ -4,44 +4,47 @@ import QrCode from "../../Assets/Admin/QrCode.svg";
 import AAMimg from "../../Assets/Admin/AAM1.png";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from "react-router-dom";
-
+import NavBar from "../../Components/NavBar/";
 function Admin() {
-  const [loggedIn, setLoggedIn] = React.useState(true);
+  const [loggedIn, setLoggedIn] = React.useState(false);
   const LogOut = () => {
     console.log("LogOut");
   };
   return (
     <div>
+      {/* <NavBar /> */}
       {!loggedIn ? (
         <div className={styles.mainWrappper}>
+          <div>
+            <img src={QrCode} />
+          </div>
+          <div className={styles.loginText}>ADMIN LOGIN</div>
           <div className={styles.loginWrapper}>
             <div>
-              <img src={QrCode} />
-            </div>
-            <div className={styles.loginText}>ADMIN LOGIN</div>
-            <div>
-              <div>
-                <input type="text" placeholder="Email" />
+              <div className={styles.component}>
+                <div className={styles.lable}>Email Id</div>
+                <input type="text" placeholder="Email Id" />
               </div>
-              <div>
+              <div className={styles.component}>
+                <div className={styles.lable}>Password</div>
                 <input type="password" placeholder="Password" />
               </div>
               {/* I am not robot */}
-              <div>
+              <div className={styles.captcha}>
                 <div>Please tick this box to continue</div>
                 <ReCAPTCHA
-                  sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                  sitekey="6LeWOV0iAAAAAI7zRPFKRlux_m_q-c_WwbtvoQdj"
                   onChange={(e) => {
                     console.log(e);
                   }}
                 />
               </div>
-              <div>
+              <div className={styles.submitWrapper}>
                 <button>Submit</button>
               </div>
             </div>
           </div>
-          <div>
+          <div className={styles.image}>
             <img src={AAMimg} />
           </div>
         </div>
