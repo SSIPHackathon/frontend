@@ -2,9 +2,10 @@ import React from "react";
 import styles from "./Admin.module.css";
 import QrCode from "../../Assets/Admin/QrCode.svg";
 import AAMimg from "../../Assets/Admin/AAM1.png";
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from "react-router-dom";
 import NavBar from "../../Components/NavBar/";
+import Footer from '../../Components/Footer'
 function Admin() {
   const [loggedIn, setLoggedIn] = React.useState(true);
   const [captcha, setCaptcha] = React.useState(false);
@@ -33,12 +34,12 @@ function Admin() {
               {/* I am not robot */}
               <div className={styles.captcha}>
                 <div>Please tick this box to continue</div>
-                <ReCAPTCHA
+                {/* <ReCAPTCHA
                   sitekey="6LeWOV0iAAAAAI7zRPFKRlux_m_q-c_WwbtvoQdj"
                   onChange={(e) => {
                     console.log(e);
                   }}
-                />
+                /> */}
               </div>
               <div className={styles.submitWrapper}>
                 <button>Submit</button>

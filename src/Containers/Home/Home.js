@@ -1,10 +1,10 @@
 // import { useSelector } from "react-redux";
 import React, { useState } from "react";
-// import NavBar from "../../Components/NavBar/index";
+import NavBar from "../../Components/NavBar/Navbar.js";
 import styles from "./Home.module.css";
-import NavBar from "../../Components/NavBar";
+//import NavBar from "../../Components/NavBar";
 import QrReader from "react-qr-reader";
-
+import Footer from "../../Components/Footer";
 const Home = () => {
   // const exampleState = useSelector((state) => state.example.exampleState);
   const [data, setData] = useState("No result");
@@ -47,6 +47,7 @@ const Home = () => {
           src="/lucide_qr-code.svg"
         />
       </div>
+      <Footer />
     </div>
   );
 };

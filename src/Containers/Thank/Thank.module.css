@@ -1,0 +1,21 @@
+.middle{
+    top: 38%;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    justify-content: center;
+    text-align: center;
+}
+.middle2{
+    top: 71%;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 16px;
+}
+.boxx{
+    margin-bottom: 80px;
+}

@@ -5,6 +5,7 @@ import Citizen from "./Containers/Citizen";
 import Contect from "./Containers/Contect";
 import QRCode from "./Containers/QRCode/QRCode";
 import Feedback from "./Containers/FeedBack/Feedback";
+import Thank from "./Containers/Thank";
 
 import Home from "./Containers/Home";
 // import Admin from "./Containers/Admin";
@@ -40,6 +41,9 @@ const App = () => {
       </Route> */}
       <Route exact path="/feedback">
         <Feedback />
+      </Route>
+      <Route exact path="/thank-you">
+        <Thank />
       </Route>
     </Switch>
   );

@@ -13,6 +13,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Button from '@mui/material/Button'
 import Alert from '@mui/material/Alert';
 import Stack from '@mui/material/Stack';
+import Footer from '../../Components/Footer'
 
 
 const Citizen = () => {
@@ -42,6 +43,10 @@ Feedback Form
          Enter mobile number:
         </InputLabel>
         <Input
+        required
+        maxlength="10" 
+        placeholder='+91'
+        type='tel'
         onChange={(e)=>setnumber(e.target.value)}
           id="input-with-icon-adornment"
           startAdornment={
@@ -88,6 +93,8 @@ Feedback Form
     </Typography>
 
     <img src='logossip.png'/>
+
+    <Footer/>
 
     </div>
   )

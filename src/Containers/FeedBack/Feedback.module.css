@@ -3,11 +3,12 @@
     position: absolute;
     left: 15%;
     right: 15%;
+    /* margin-bottom: 100px; */
 }
 .submit{
     border-radius: 18px;
     width: fit-content;
-    left: 30%;
+    left: 150;
     background-color: #FFAA46;
     color: black;
 }

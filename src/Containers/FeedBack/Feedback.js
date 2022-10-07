@@ -9,7 +9,7 @@ import styles from './Feedback.module.css'
 import TextareaAutosize from '@mui/material/TextareaAutosize';
 import SendIcon  from '@mui/icons-material/SendAndArchiveOutlined';
 import Button from '@mui/material/Button'
-
+import Footer from '../../Components/Footer'
 
 
 const Feedback = () => {
@@ -17,7 +17,7 @@ const Feedback = () => {
     const [feedback2, setfeedback2] = useState('imm');
     const [feedback3, setfeedback3] = useState('');
   return (
-    <div>
+    <div className={styles.margin}>
 <NavBar/>
 <div className={styles.form}>
     <FormControl>
@@ -58,7 +58,14 @@ const Feedback = () => {
     <br />
 <Button className={styles.submit} variant="contained" endIcon={<SendIcon />}>Submit</Button>
     </FormControl>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     </div>
+    <Footer/>
     </div>
   )
 }

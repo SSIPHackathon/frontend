@@ -13,13 +13,12 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    left: 25%;
+    left: 10%;
     position: relative;
 }
 .submit{
     border-radius: 18px;
     width: fit-content;
-    left: 30%;
 }
 .error{
     left:35%;
