@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AAM1 from "../../Assets/Admin/AAM1.png";
 import LableComponent from "../../Components/LableComponent/LableComponent";
 import styles from "./Overview.module.css";
+import Footer from '../../Components/Footer'
 function Overview() {
   const [Admin, setAdmin] = React.useState({
     policeStationId: "PL0001",
