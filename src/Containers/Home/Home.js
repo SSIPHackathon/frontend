@@ -1,13 +1,13 @@
 // import { useSelector } from "react-redux";
-import React from "react";
-import NavBar from "../../Components/NavBar/Navbar.js";
+import React, { useState } from "react";
+// import NavBar from "../../Components/NavBar/index";
 import styles from "./Home.module.css";
 import NavBar from "../../Components/NavBar";
-import QrReader from 'react-qr-reader';
+import QrReader from "react-qr-reader";
 
 const Home = () => {
   // const exampleState = useSelector((state) => state.example.exampleState);
-  const [data, setData] = useState('No result');
+  const [data, setData] = useState("No result");
   const handleResult = (result, error) => {
     if (!!result) {
       setData("");
@@ -16,7 +16,7 @@ const Home = () => {
     if (!!error) {
       console.info(error);
     }
-  }
+  };
 
   return (
     <div className={styles.qranimation2}>
@@ -29,12 +29,12 @@ const Home = () => {
       </div>
       <div>
         <div className={styles.qrvideo}>
-        <QrReader
-                onScan={handleResult}  
-                onResult={handleResult}
-                style={{ width: '78%' }}
-              />
-      </div>
+          <QrReader
+            onScan={handleResult}
+            onResult={handleResult}
+            style={{ width: "78%" }}
+          />
+        </div>
       </div>
       <div className={styles.scanqrcode1}>
         <div className={styles.rectanglediv3} />

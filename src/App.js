@@ -6,7 +6,7 @@ import Contect from "./Containers/Contect";
 import QRCode from "./Containers/QRCode/QRCode";
 import Feedback from "./Containers/FeedBack/Feedback";
 
-// import Home from "./Containers/Home";
+import Home from "./Containers/Home";
 // import Admin from "./Containers/Admin";
 import Analytics from "./Containers/Analytics/Analytics";
 import Overview from "./Containers/Overview/Overview";
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Switch>
       <Route exact path="/">
-        {/* <Home /> */}
+        <Home />
       </Route>
       <Route exact path="/admin">
         <Admin />
