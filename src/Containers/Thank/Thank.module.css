@@ -1,21 +1,57 @@
+@font-face {
+    font-family: 'Metra SemiBold';
+    src: url(../../Assets/General/Fonts/metropolis.semi-bold.otf);
+}
+@font-face {
+    font-family: 'Metra Med';
+    src: url(../../Assets/General/Fonts/metropolis.medium.otf);
+}
+
+@font-face {
+    font-family: 'Metra Bold';
+    src: url(../../Assets/General/Fonts/metropolis.bold.otf);
+}
+@font-face {
+    font-family: 'Metra';
+    src: url(../../Assets/General/Fonts/metropolis.regular.otf);
+}
 .middle{
-    top: 38%;
+    /* top: 38%;
     position: absolute;
     left: 15%;
     right: 15%;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
 }
 .middle2{
-    top: 71%;
-    position: absolute;
-    left: 15%;
-    right: 15%;
-    justify-content: center;
+    /* top: 71%; */
+    /* position: absolute; */
+    /* left: 15%;
+    right: 15%; */
+    /* justify-content: center; */
     text-align: center;
-    background-color: lightgray;
+    background-color: #E9E9E9;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
 }
 .boxx{
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }

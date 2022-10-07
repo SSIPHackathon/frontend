@@ -5,7 +5,7 @@ import AAMimg from "../../Assets/Admin/AAM1.png";
 //import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from "react-router-dom";
 import NavBar from "../../Components/NavBar/";
-import Footer from '../../Components/Footer'
+import Footer from "../../Components/Footer";
 function Admin() {
   const [loggedIn, setLoggedIn] = React.useState(true);
   const [captcha, setCaptcha] = React.useState(false);
