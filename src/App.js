@@ -35,9 +35,9 @@ const App = () => {
       <Route exact path="/contect-us">
         <Contect />
       </Route>
-      <Route exact path="/admin-login">
+      {/* <Route exact path="/admin-login">
         <Admin />
-      </Route>
+      </Route> */}
       <Route exact path="/feedback">
         <Feedback />
       </Route>
