@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Metra SemiBold';
+    src: url(../../Assets/General/Fonts/metropolis.semi-bold.otf);
+}
+@font-face {
+    font-family: 'Metra Med';
+    src: url(../../Assets/General/Fonts/metropolis.medium.otf);
+}
+
+@font-face {
+    font-family: 'Metra Bold';
+    src: url(../../Assets/General/Fonts/metropolis.bold.otf);
+}
+@font-face {
+    font-family: 'Metra';
+    src: url(../../Assets/General/Fonts/metropolis.regular.otf);
+}
+
+
+.loginWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Metra Med';
+    font-weight: 500;
+    width: max-content;
+    padding:  30px;
+    border-radius: 10px;
+    background-color: #E9E9E9;
+    font-size: 1.1rem;
+
+}
+.mainWrappper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #E9E9E9; */
+}
+.lable{
+    padding: 2px;
+}
+.loginWrapper img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    
+}
+.loginText{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #14195D;
+    font-family: 'Metra Bold';
+
+}
+input{
+    padding: 8px 10px 8px 10px;
+    width: 220px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+    font-family: 'Metra Med';
+ 
+
+}
+.component{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.captcha div{
+    width: 270px;
+    font-size: 0.9rem;
+    color: #8D8D8D;
+    padding: 1.5px 0px  1.5px 0px ; 
+
+}
+.captcha{
+    width: 200px;
+    transform: scale(0.8);
+  
+}
+.g-recaptcha{
+    width: 200px;
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 10px;
+    border: 2px solid #8D8D8D;
+    font-family: "Metra Med"!important;
+}
+button{
+    width: max-content;
+    padding: 11px 29px 11px 29px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+    font-family: 'Metra Med';
+    background-color: #FFAA46;
+    color: black;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+}
+.submitWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px 0px 20px 0px ;
+}
+.image img{
+   
+    padding: 20px;
+}

@@ -1,6 +1,6 @@
-/* eslint-disable */
-import React,{ useState } from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
+import React from "react";
+import NavBar from "../../Components/NavBar/Navbar.js";
 import styles from "./Home.module.css";
 import NavBar from "../../Components/NavBar";
 import QrReader from 'react-qr-reader';

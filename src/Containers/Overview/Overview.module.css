@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Metra SemiBold';
+    src: url(../../Assets/General/Fonts/metropolis.semi-bold.otf);
+}
+@font-face {
+    font-family: 'Metra Med';
+    src: url(../../Assets/General/Fonts/metropolis.medium.otf);
+}
+
+@font-face {
+    font-family: 'Metra Bold';
+    src: url(../../Assets/General/Fonts/metropolis.bold.otf);
+}
+@font-face {
+    font-family: 'Metra';
+    src: url(../../Assets/General/Fonts/metropolis.regular.otf);
+}
+.overViewText{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #14195D;
+    font-family: 'Metra Bold';
+    margin: 2rem;
+
+}
+.overViewCard{
+    background: "#E9E9E9";
+    padding : 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.MainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+.button{
+    margin: 20px;
+}
