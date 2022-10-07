@@ -50,29 +50,35 @@ function Admin() {
           </div>
         </div>
       ) : (
-        <div>
+        <div className={styles.mainWrappper}>
           <div>
-            <div>WELCOME BACK!</div>
+            <div className={styles.loginText}>WELCOME BACK!</div>
 
             {/* Routes */}
-            <div>
+            <div className={styles.routeWrapper}>
               <Link to="/overview">
-                <div>Admin overview</div>
+                <div className={styles.redirect}>
+                  <div>Admin overview</div>
+                </div>
               </Link>
             </div>
             <div>
               <Link to="/analytics">
-                <div>Analytics</div>
+                <div>
+                  <div className={styles.redirect}>Analytics</div>
+                </div>
               </Link>
             </div>
             <div>
               <Link to="/qrcode">
-                <div>Generate QR code</div>
+                <div>
+                  <div className={styles.redirect}>Generate QR code</div>
+                </div>
               </Link>
             </div>
           </div>
           <div onClick={LogOut}>
-            <div>Log Out</div>
+            <div className={styles.logOut}>Log Out</div>
           </div>
           <div>
             <img src={AAMimg} />
